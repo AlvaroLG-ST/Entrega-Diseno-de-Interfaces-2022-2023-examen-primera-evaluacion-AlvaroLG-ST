@@ -1,0 +1,36 @@
+* Examen DI Primera Evaluación
+** Preparación
+1. Abrir un terminal.
+2. Clonar el repositorio al equipo local mediante ~git clone~.
+3. Acceder a la carpeta del repositorio.
+   
+** Tareas a realizar
+*** Creación de interfaces con Glade (GTK) (3 puntos)
+    Realiza un diseño de un interfaz con el programa *Glade* instalado en el equipo. Deberás utilizar elementos de layout *lineal* y controles de los siguientes tipos (por orden conforme se ven en la imagen):
+    1. ~GTKMenuBar~
+    2. ~GTKTextView~
+    3. ~GTKButton~
+    4. ~GTKCheckButton~
+    5. ~GTKEntry~
+
+    A continuación se muestra una captura de la interfaz a desarrollar:
+    
+    [[./imagenes/ejercicio_glade_examen.png]]
+
+    Debes *incluir en el repositorio* el *fichero* ~.glade~ del interfaz desarrollado.
+    
+*** Creación de interfaces con Qt (7 puntos)
+Realiza un diseño de una interfaz mediante *Qt*. A continuación se muestra una captura de la interfaz a desarrollar:
+    
+[[./imagenes/ejercicio_qt_examen.gif]]
+
+Se tendrán en cuenta las siguientes *funcionalidades*:
+- Utilización correcta del control ~StackView~.
+- Creación de los componentes de la aplicación en *archivos distintos* (pantalla principal y formulario).
+- Los controles deben aparecer *centrados* *vertical* y *horizontalmente* al *cambiar el tamaño de la ventana*.
+- Se deben mostrar los datos del formulario en la pantalla principal al pulsar en el botón *Enviar*.
+
+Incluye en el repositorio el proyecto creado en Qt Creator.
+    
+** Formato de la entrega
+Se debe realizar la entrega subiendo el repositorio a GitHub mediante ~git push~.
